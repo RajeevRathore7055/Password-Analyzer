@@ -1,0 +1,26 @@
+# SecurePass — Backend Dependencies
+# Install: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# Authentication
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.36
+pymysql==1.1.1
+
+# HTTP Client — async-compatible (fixes sync requests bug in breach_service)
+httpx==0.27.0
+
+# ML
+scikit-learn==1.6.1
+numpy==2.1.3
+
+# Env & Validation
+python-dotenv==1.0.1
+email-validator==2.2.0

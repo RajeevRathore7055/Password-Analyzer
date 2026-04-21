@@ -1,0 +1,103 @@
+# ======================
+# Backend (FastAPI)
+# ======================
+backend/.env
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# ML model (optional - include only if small)
+backend/ml/password_model.pkl
+
+# ======================
+# Frontend (React)
+# ======================
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# ======================
+# Environment & Secrets
+# ======================
+.env
+*.env
+
+# ======================
+# Logs & OS files
+# ======================
+*.log
+.DS_Store
+Thumbs.db
+
+# ======================
+# Database
+# ======================
+*.db
+*.sqlite3
+
+# Optional (keep schema if you want)
+# database/*.sql
+
+# =========================
+# 🔐 ENV & SECRETS
+# =========================
+.env
+*.env
+backend/.env
+
+# =========================
+# 🐍 PYTHON (BACKEND)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# ⚛️ REACT (FRONTEND)
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# =========================
+# 📦 ML / LARGE FILES
+# =========================
+backend/ml/password_model.pkl
+
+# =========================
+# 💻 OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📝 LOG FILES
+# =========================
+*.log
+
+# =========================
+# 🗄️ DATABASE FILES
+# =========================
+*.db
+
+# =========================
+# ❌ DO NOT IGNORE THESE
+# =========================
+# (Important files to keep in GitHub)
+!README.md
+!backend/.env.example
+!database/schema.sql
+test.py

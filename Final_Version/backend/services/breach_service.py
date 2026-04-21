@@ -10,6 +10,9 @@ Privacy guarantee:
 Uses httpx (sync) — compatible with FastAPI sync endpoints and replaces
 the previously buggy sync `requests` library.
 """
+#import hashlib
+#import httpx
+
 import hashlib
 import httpx
 

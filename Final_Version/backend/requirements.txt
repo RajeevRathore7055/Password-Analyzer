@@ -5,6 +5,8 @@
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 
+
+
 # Authentication
 python-jose[cryptography]==3.3.0
 bcrypt==4.2.1

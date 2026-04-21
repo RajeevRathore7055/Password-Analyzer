@@ -1,6 +1,6 @@
 # 🛡️ SecurePass — Password Strength Analyser & Breach Checker
 
-**B.Tech 6th Semester | CSE | Mini Project 3 | Final Version 3.0.0**
+**B.Tech 6th Semester | CSE | Mini Project 3 | Final Version (Last)**
 
 A security-focused, stateless web application that analyses password strength using entropy-based scoring and pattern detection, checks passwords against known breach databases using the k-Anonymity model, generates cryptographically secure replacements, and educates users about password security best practices.
 
